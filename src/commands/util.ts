@@ -8,6 +8,8 @@ interface IndexedQuickPickItem extends vscode.QuickPickItem {
   index: number;
 }
 
+let notificationTimeout: NodeJS.Timeout | null = null;
+
 export function openFile(filename: string) {
   return vscode.workspace
     .openTextDocument(filename)
@@ -103,4 +105,16 @@ export async function showCreateFile(filename: string): Promise<void> {
   if (await showYesNo(message)) {
     return ensureDocument(filename);
   }
+}
+
+export async function showNotification(message: string): Promise<void> {
+  if (notificationTimeout) {
+    clearTimeout(notificationTimeout);
+  }
+
+  vscode.window.setStatusBarMessage(message, 3000);
+
+  notificationTimeout = setTimeout(() => {
+    vscode.window.setStatusBarMessage('');
+  }, 3000);
 }

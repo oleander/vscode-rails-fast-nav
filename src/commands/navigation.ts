@@ -1,6 +1,6 @@
 import { getCheckedSwitches } from '../switches';
 import { getCurrentRailsFile } from '../rails-file';
-import { showPicker, openFile } from './util';
+import { showNotification, openFile } from './util';
 import { switchToModel } from './switch-to-model';
 import { switchToController } from './switch-to-controller';
 import { switchToView } from './switch-to-view';
@@ -34,7 +34,7 @@ export async function cycleThroughFiles() {
       await switchToModel();
     } else {
       const switchableFiles = await getCheckedSwitches(railsFile);
-      await showPicker(railsFile.railsRoot, switchableFiles);
+      await showNotification(`Cycling through files: ${switchableFiles.map(file => file.title).join(', ')}`);
     }
   } catch (err) {
     console.error(err);
