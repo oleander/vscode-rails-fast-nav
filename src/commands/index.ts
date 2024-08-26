@@ -6,6 +6,7 @@ import { switchToController } from './switch-to-controller';
 import { switchToFixture } from './switch-to-fixture';
 import { createView } from './create-view';
 import { createSpec } from './create-spec';
+import { cycleThroughFiles } from './navigation';
 
 export const commands = {
   fastNavigation: navigateRails,
@@ -17,4 +18,5 @@ export const commands = {
   switchToFixture,
   createView,
   createSpec,
+  cycleThroughFiles,
 };
