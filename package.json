@@ -66,18 +66,6 @@
       {
         "command": "rails.switchToSpec",
         "title": "Rails: Switch to Spec"
-      },
-      {
-        "command": "rails.switchToFixture",
-        "title": "Rails: Switch to Fixture"
-      },
-      {
-        "command": "rails.createView",
-        "title": "Rails: Create View"
-      },
-      {
-        "command": "rails.createSpec",
-        "title": "Rails: Create Spec"
       }
     ],
     "keybindings": [
