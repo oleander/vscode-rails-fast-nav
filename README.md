@@ -27,3 +27,11 @@ Change the default view extension from `html.erb`:
 ```json
 "rails.viewFileExtension": "json.jbuilder"
 ```
+
+## Display Keyboard Shortcuts in UI
+
+This extension can display the keyboard shortcuts in the status bar for quick reference. This feature is enabled by default but can be disabled by setting the `rails.showKeyboardShortcuts` configuration to `false`.
+
+```json
+"rails.showKeyboardShortcuts": true
+```

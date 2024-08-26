@@ -39,6 +39,11 @@
           "type": "string",
           "default": "html.erb",
           "description": "Default extension when creating a view"
+        },
+        "rails.showKeyboardShortcuts": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show keyboard shortcuts in the status bar"
         }
       }
     },
