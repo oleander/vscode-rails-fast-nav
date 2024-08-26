@@ -3,17 +3,17 @@
   "displayName": "Rails Fast Nav",
   "description": "Ruby on Rails Navigation",
   "version": "1.3.6",
-  "publisher": "jemmyw",
+  "publisher": "oleander",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jemmyw/vscode-rails-fast-nav.git"
+    "url": "https://github.com/oleander/vscode-rails-fast-nav.git"
   },
   "icon": "images/icon.png",
   "author": {
     "name": "Jeremy Wells"
   },
   "license": "MIT",
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=jemmyw.rails-fast-nav",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=oleander.rails-fast-nav",
   "engines": {
     "vscode": "^1.39.0"
   },

@@ -1,10 +1,10 @@
-import { navigateRails } from './navigation';
-import { switchToView } from './switch-to-view';
-import { switchToModel } from './switch-to-model';
-import { switchToTest } from './switch-to-test';
-import { switchToController } from './switch-to-controller';
-import { cycleThroughFiles } from './navigation';
-import { updateStatusBar } from './util';
+import { navigateRails } from '../navigation';
+import { switchToView } from '../switch-to-view';
+import { switchToModel } from '../switch-to-model';
+import { switchToTest } from '../switch-to-test';
+import { switchToController } from '../switch-to-controller';
+import { cycleThroughFiles } from '../navigation';
+import { updateStatusBar } from '../util';
 
 export const commands = {
   fastNavigation: navigateRails,

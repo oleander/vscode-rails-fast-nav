@@ -1,4 +1,4 @@
-# Rails Fast Nav ![Test status](https://img.shields.io/github/workflow/status/jemmyw/vscode-rails-fast-nav/Test.png)
+# Rails Fast Nav ![Test status](https://img.shields.io/github/workflow/status/oleander/vscode-rails-fast-nav/Test.png)
   
 Commands to move between files in a Rails application.
 
@@ -35,3 +35,25 @@ This extension can display the keyboard shortcuts in the status bar for quick re
 ```json
 "rails.showKeyboardShortcuts": true
 ```
+
+## Installation
+
+To install the extension from this GitHub repository, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/oleander/vscode-rails-fast-nav.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd vscode-rails-fast-nav
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+4. Open the project in Visual Studio Code:
+   ```sh
+   code .
+   ```
+5. Press `F5` to open a new window with the extension loaded.
