@@ -4,11 +4,11 @@ Commands to move between files in a Rails application.
 
 ## Features
 
-- Navigate to all known files (alt+r) [command.railsFastNavigation]
-- Switch to model [command.railsFastSwitchToModel]
-- Switch to controller [command.railsSwitchToController]
-- Switch to view [command.railsFastSwitchToView]
-- Switch to test/spec [command.railsFastSwitchToTest] + alias [command.railsFastSwitchToSpec]
+- Navigate to all known files (cmd+ctrl+r) [command.railsFastNavigation]
+- Switch to model (cmd+ctrl+m) [command.railsFastSwitchToModel]
+- Switch to controller (cmd+ctrl+c) [command.railsSwitchToController]
+- Switch to view (cmd+ctrl+v) [command.railsFastSwitchToView]
+- Switch to test/spec (cmd+ctrl+t) [command.railsFastSwitchToTest] + alias [command.railsFastSwitchToSpec]
 - Switch to fixture [command.railsFastSwitchToFixture]
 - Create View [command.railsCreateView]
 - Create Spec [command.railsCreateSpec]

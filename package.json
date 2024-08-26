@@ -83,27 +83,27 @@
     "keybindings": [
       {
         "command": "rails.fastNavigation",
-        "key": "alt+r",
+        "key": "cmd+ctrl+r",
         "when": "editorTextFocus"
       },
       {
         "command": "rails.switchToModel",
-        "key": "alt+m",
+        "key": "cmd+ctrl+m",
         "when": "editorTextFocus"
       },
       {
         "command": "rails.switchToController",
-        "key": "alt+c",
+        "key": "cmd+ctrl+c",
         "when": "editorTextFocus"
       },
       {
         "command": "rails.switchToView",
-        "key": "alt+v",
+        "key": "cmd+ctrl+v",
         "when": "editorTextFocus"
       },
       {
         "command": "rails.switchToTest",
-        "key": "alt+y",
+        "key": "cmd+ctrl+t",
         "when": "editorTextFocus"
       }
     ]
